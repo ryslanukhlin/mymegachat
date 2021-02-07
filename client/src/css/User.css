@@ -1,0 +1,12 @@
+.menu__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 100%;
+    background-color: #002140;
+}
+
+.menu__logo > h1{
+    color: rgba(255, 255, 255, 0.65);
+}

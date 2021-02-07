@@ -1,0 +1,42 @@
+.login__wraper{
+  height: 100vh;
+  display: flex;
+  flex-grow: inherit;
+}
+
+.img__wraper{
+  width: 60%;
+}
+
+.form__wraper{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img{
+  height: 100%;
+  width: 100%;
+}
+
+.form{
+  width: 300px;
+}
+
+.form__btn{
+  width: 100%;
+}
+
+.form__forgePass{
+  float: right;
+}
+
+@media (max-width: 1200px) {
+  .img__wraper{
+    display: none;
+  }
+  .form__wraper{
+    width: 100%;
+  }
+}

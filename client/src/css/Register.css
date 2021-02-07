@@ -1,0 +1,17 @@
+.register__wraper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register__form{
+    width: 600px;
+}
+
+@media (max-width: 650px) {
+    .register__form{
+        width: 300px;
+    }
+}
